@@ -1,0 +1,18 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "ZeroCraft Launcher"
+
+[ejs.landing]
+mediaInstagramURL = "https://www.instagram.com/anohanatv?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+mediaYouTubeURL = "https://www.youtube.com/@anohanatv1820"
+mediaDiscordURL = "https://discord.gg/YtTtchGB"
+
+[ejs.settings]
+
+
+[ejs.welcome]
+welcomeHeader = "Bienvenido a ZeroCraft"
+welcomeDescription = "Más allá nos aguarda lo desconocido: una aventura inolvidable o tal vez los ecos de leyendas de tiempos perdidos. No sé si quiero recordar... quizás es mejor dejar atrás el dolor que aferrarse a él. Esta no es una historia cualquiera, es tu historia. Aquí puedes ser quien desees: valiente, vengativo, amigable, o incluso alguien que jamás pensaste ser. Atrévete a encontrar la belleza escondida, a perseguir esos sueños que laten en tu interior."
+welcomeDescCTA = "La aventura te aguarda."
+

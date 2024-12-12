@@ -14,10 +14,10 @@ extraResources:
   - 'libraries'
 
 # Windows Configuration
-win: 
-  target: 
+win:
+  target:
     - target: nsis
-      arch: 
+      arch:
         - x64
 
 # Windows Installer Configuration
@@ -31,14 +31,11 @@ nsis:
 mac:
   target:
     - dmg
-  arch:
-    - x64
-    - arm64
-  artifactName: '${productName}-setup-${version}-${arch}.${ext}'
+  artifactName: '${productName}-setup-${version}.${ext}'
   category: 'public.app-category.games'
-  
+
 # Linux Configuration
-linux: 
+linux:
   target: AppImage
   maintainer: 'VonDefiant'
   vendor: 'VonDefiant'

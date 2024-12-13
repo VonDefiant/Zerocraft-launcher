@@ -9,6 +9,7 @@
   "bugs": {
     "url": "https://github.com/dscalzi/HeliosLauncher/issuesaz"
   },
+  
   "private": true,
   "main": "index.js",
   "scripts": {

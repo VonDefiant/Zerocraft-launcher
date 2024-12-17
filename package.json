@@ -1,13 +1,13 @@
 {
   "name": "zerocraftlauncher",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "productName": "ZeroCraft Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "VonDefiant",
   "license": "UNLICENSED",
   "homepage": "",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issuesaz"
+    "url": "https://github.com/VonDefiant/Zerocraft-launcher/issues"
   },
   
   "private": true,
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/VonDefiant/Zerocraft-launcher.git"
+    "url": "git+https://github.com/VonDefiant/Zerocraft-launcher.git"
   }
 }

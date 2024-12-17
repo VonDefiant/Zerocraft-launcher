@@ -1,15 +1,14 @@
 {
   "name": "zerocraftlauncher",
-  "version": "2.2.1",
+  "version": "1.0.6",
   "productName": "ZeroCraft Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "VonDefiant",
+  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
-  "homepage": "",
+  "homepage": "https://github.com/VonDefiant/Zerocraft-launcher",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issuesaz"
+    "url": "https://github.com/VonDefiant/Zerocraft-launcher/issues"
   },
-  
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -21,32 +20,32 @@
     "lint": "eslint --config .eslintrc.json ."
   },
   "engines": {
-    "node": "20.x.x"
+    "node": "18.x.x"
   },
   "dependencies": {
-    "@electron/remote": "^2.1.2",
-    "adm-zip": "^0.5.16",
+    "@electron/remote": "^2.1.0",
+    "adm-zip": "^0.5.9",
     "discord-rpc-patch": "^4.0.1",
-    "ejs": "^3.1.10",
-    "ejs-electron": "^3.0.0",
-    "electron-updater": "^6.3.9",
+    "ejs": "^3.1.9",
+    "ejs-electron": "^2.1.1",
+    "electron-updater": "^6.1.7",
     "fs-extra": "^11.1.1",
     "github-syntax-dark": "^0.5.0",
     "got": "^11.8.5",
-    "helios-core": "~2.2.2",
+    "helios-core": "~2.1.1",
     "helios-distribution-types": "^1.3.0",
     "jquery": "^3.7.1",
     "lodash.merge": "^4.6.2",
-    "semver": "^7.6.3",
+    "semver": "^7.5.4",
     "toml": "^3.0.0"
   },
   "devDependencies": {
-    "electron": "^33.0.1",
-    "electron-builder": "^25.1.8",
-    "eslint": "^8.57.1"
+    "electron": "^27.1.3",
+    "electron-builder": "^24.9.1",
+    "eslint": "^8.56.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/VonDefiant/Zerocraft-launcher.git"
+    "url": "git+https://github.com/VonDefiant/Zerocraft-launcher.git"
   }
 }
